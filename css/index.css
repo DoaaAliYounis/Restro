@@ -1,0 +1,450 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif ;
+    background-color: rgb(35,35,35);
+    color: white;
+}
+header{
+    width: 100%;
+
+    position: relative;
+    height: 100vh;
+}
+header img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: blur(2px);
+
+}
+nav{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    right: 10%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+nav .container .head-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav .container .head-nav .logo h2{
+    font-weight: 900;
+    font-size: 20px;
+}
+nav .container .head-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+nav .container .head-nav ul li{
+    font-size: 14px;
+
+}
+nav .container .head-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.landing{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 20px;
+    width: 100%;
+    margin-top: 50px;
+   
+}
+.landing .container p{
+    width: 80%;
+    
+    font-size: 17px;
+    font-weight: 200;
+    padding: 0px;
+    margin: auto;
+}
+.landing .container h1{
+    font-size: 60px;
+    padding-bottom: 50px;
+  
+}
+.landing button{
+    margin-top: 60px;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color:rgb(250, 180, 75);
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.landing button:hover{
+    color: white;
+    background-color: rgb(0, 0, 0 ,0.7);
+}
+
+
+.part-one{
+    width: 100%;
+    padding: 10% 0%;
+}
+.part-one .container .one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.part-one .container  .one .one-min{
+    width: 50%;
+}
+.part-one  .container .one .one-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.part-one  .container .one .one-Story h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: rgb(250, 180, 75);
+}
+.part-one  .container .one .one-Story p{
+    font-size: 17px;
+    font-weight: 200;
+    padding-bottom: 50px;
+
+}
+.part-one  .container .one .one-Story button{
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color:rgb(250, 180, 75);
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.part-one  .container .one .one-Story button:hover{
+    color: white;
+    background-color: rgb(0, 0, 0 ,0.7);
+}
+
+
+
+.part-two{
+    padding: 5% 0%;
+    text-align: center;
+
+}
+.part-two h2{
+    font-size: 40px;
+    color: rgb(250, 180, 75);
+
+}
+.part-two .two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-top:10%;
+}
+.part-two .two .two-min{
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(255, 255, 255 ,0.2);
+    border-radius: 20px ;
+    transition: all 0.3s;
+   
+}
+.part-two .two .two-min img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px 20px 0px 0px;
+}
+.part-two .two .two-min h3{
+    font-size: 15px;
+    padding-top: 15px;
+}
+.part-two .two .two-min button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 13px;
+    background-color:rgb(250, 180, 75);
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+.part-two .two .two-min button:hover{
+    color: white;
+    background-color: rgb(0, 0, 0 ,0.7);
+}
+.part-two .two .two-min:hover{
+   margin-top: -15px;
+
+}
+
+.part-three{
+    width: 100%;
+    padding: 12% 0%;
+}
+.part-three .container .three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.part-three .container  .three .three-min{
+    width: 50%;
+}
+.part-three .container .three .three-image  img{
+    width: 100%;
+    border-radius: 20px;
+}
+.part-three  .container .three .three-Story h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: rgb(250, 180, 75);
+}
+.part-three  .container .three .three-Story p{
+    font-size: 17px;
+    font-weight: 200;
+    padding-bottom: 50px;
+
+}
+.part-three  .container .three .three-Story button{
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    background-color:rgb(250, 180, 75);
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.part-three  .container .three .three-Story button:hover{
+    color: white;
+    background-color: rgb(0, 0, 0 ,0.7);
+}
+
+.part-four{
+    width: 100%;
+}
+.part-four .four-img{
+    width: 100%;
+    position: relative;
+    height: 90vh;
+}
+.part-four .four-img img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.part-four .four-talk{
+   text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+.part-four .four-talk h2{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.part-four .four-talk p{
+    font-size: 16px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.part-five{
+    padding: 5% 0%;
+    padding-bottom: 10%;
+    text-align: center;
+
+}
+.part-five h2{
+    font-size: 40px;
+    color: rgb(250, 180, 75);
+
+}
+.part-five .five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top:10%;
+}
+.part-five .five .five-min{
+    width: 40%;
+    height: 75vh;
+    background-color: rgb(255, 255, 255 ,0.2);
+    border-radius: 20px ;
+    transition: all 0.3s;
+   
+}
+.part-five .five .five-min img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 20px 20px 0px 0px;
+}
+.part-five .five .five-min:hover{
+    margin-top: -15px;
+ 
+ }
+ 
+ 
+footer{
+    background-color: rgb(0, 0, 0 ,0.5);
+    width: 100%;
+    padding: 5% 0%;
+    padding-bottom: 7%;
+}
+footer .foot{
+  display: flex;
+  justify-content: space-evenly;
+    gap: 5px;
+ 
+}
+footer .foot .foot-min ul{
+    list-style: none;
+}
+footer .foot .foot-min ul li{
+    padding-bottom: 25px;
+    font-size: 15px;
+    color: rgb(255, 255, 255 ,0.7);
+}
+footer .foot .foot-min ul li:hover{
+    color: white;
+
+}
+footer .foot .foot-min ul li input{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px 0px 0px 20px;
+
+}
+footer .foot .foot-min ul li button{
+    padding: 15px 20px;
+    border: none;
+    background-color: rgb(250, 180, 75);
+    border-radius: 0px 20px 20px 0px;
+
+}
+iframe{
+    width: 100%;
+    border-radius: 20px;
+}
+form{
+    padding-top: 5%;
+    width: 100%;
+    color: white;
+}
+label{
+    font-size: 23px;
+}
+input{
+    margin: 17px 0px;
+    width: 100%;
+    line-height: 30px;
+    border-radius: 30px;
+
+}
+.btn{
+    padding-top: 50px;
+    text-align: center;
+}
+.btn button{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(250, 180, 75);
+}
+.part-six{
+    padding-bottom: 5%;
+
+}
+.foot-min{
+    width:20%;
+}
+.unique{
+    width: 40%;
+}
+.unique p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.384);
+}
+
+@media screen and (max-width:600px) {
+   
+    .links{
+        width: 70%;
+    }
+    h1{
+        font-size: 10px;
+        line-height: 55px;
+    }
+    .part-one .container .one{
+        display: block;
+    }
+    .part-one .container .one .one-image{
+       width: 100%;
+       height: 100vh;
+    }
+    .one-image img{
+        width: 100%;
+        height:100%;
+    }
+    .part-one .container .one .one-Story{
+        padding-top: 40px;
+    }
+    .part-two .container .two{
+        display: block;
+    }
+    .part-two .container .two .two-min{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 30px;
+        margin-bottom: 25px;
+    }
+    .part-two .container .two .two-min img{
+        height: 80%;
+    }
+    .part-three .container .three{
+        display: block;
+    }
+    .part-three .container .three .three-min{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .part-five .container .five{
+        display: block;
+    
+    }
+    .part-five .container .five .five-min{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+    .part-five .container .five .five-min img{
+        height: 100%;
+    }
+}

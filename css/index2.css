@@ -1,0 +1,44 @@
+body{
+    background-color: sienna;
+}
+
+.parent{
+    width: 80%;
+    height: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 40px;
+    display: flex;
+}
+.image{
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.form{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+.form h1{
+    color:rgb(182, 119, 37);
+    font-size: 35px;
+}
+.form input {
+    display: block;
+    margin-bottom: 20px;
+    width: 70%;
+    height: 30px;
+}
+.form button{
+    font-size: 20px;
+    width: 70%;
+    height: 30px;
+    background-color:brown ;
+    color: aliceblue;
+    border-radius: 25px;
+}
+
